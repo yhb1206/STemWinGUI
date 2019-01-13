@@ -34,7 +34,8 @@ Purpose     : Simple demo drawing "Hello world"
 */
 void MainTask(void) {
   GUI_Init();
-  GUI_DispString("Hello world!");
+  //GUI_DispString("Hello world!");
+  GUI_DispStringAt("Hello world!", 120, 120);
   while(1);
 }
 
